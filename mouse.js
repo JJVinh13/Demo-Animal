@@ -1,4 +1,6 @@
-function Mouse(){
-    name= 'teo',
-    age= 20
+function Mouse(name){
+    this.name = name;
+   console.log('test git diff');
 }
+
+module.export = Mouse;
