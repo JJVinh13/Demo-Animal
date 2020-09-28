@@ -1,6 +1,10 @@
 function Mouse(name){
     this.name = name;
-   console.log('test git diff');
+    this.dead = false;
+
+};
+Mouse.prototype.die =function (){
+    this.dead = true;
 }
 
 module.export = Mouse;
