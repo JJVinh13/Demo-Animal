@@ -4,6 +4,8 @@ function Cat ( name ){
     this.stomach = [];
 }
 
-
+Cat.prototype.eat = function(meo){
+    this.stomach.push(meo);
+}
 
 module.export= Cat;
